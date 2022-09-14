@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8f6aa2d34e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+         <img src="assets/img/arg.prog logo.png" alt="" width="25%" height=""></a>
+         <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><i class="fa-brands fa-twitter fa-xl"></i></li>
+          <li class="list-group-item"><i class="fa-brands fa-github fa-xl"></i></li>
+           <li class="list-group-item"><i class="fa-brands fa-linkedin fa-xl"></i></li>
+           <li class="list-group-item"><i class="fa-brands fa-facebook fa-xl"></i></li>
+           <li class="list-group-item"><i class="fa-brands fa-instagram fa-xl"></i></li>
+           <!-- Button trigger modal -->
+           <li class="list-group-item">
+            <i class="fa-sharp fa-solid fa-user-check fa-xl"type="button">
+            </i>
+           </li>
+         </ul>
+     </div>
+     </nav>
+
+<main>
+<section id="panel" class="panel">
+    <div class="container text-center">
+        <div class="row mt-3 g-2 g-lg-3">
+          <!--banner-->
+          <div class="col">
+            <div><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-image fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalimg">
+                    </i>
+                    <div class="modal fade" id="Modalimg" tabindex="-1" aria-labelledby="Modalimg" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <label for="formFileMultiple" class="form-label">Foto</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--redes-->
+          <div class="col">
+            <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-users-line fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalred">
+                    </i>
+                    <div class="modal fade" id="Modalred" tabindex="-1" aria-labelledby="Modalred" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Redes</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--foto y presentación-->
+          <div class="col">
+            <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-user-tie fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modaldt">
+                    </i>
+                    <div class="modal fade" id="Modaldt" tabindex="-1" aria-labelledby="Modaldt" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Foto</label>
+                              <input class="form-control" type="file" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Nombre y Apellido</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--experiencia-->
+        <div class="row mt-3 g-2 g-lg-3">
+            <div class="col">
+              <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-briefcase fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalexp">
+                    </i>
+                    <div class="modal fade" id="Modalexp" tabindex="-1" aria-labelledby="Modalexp" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Experiencia</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul>
+            </div>
+            </div>
+
+            <!--educacion-->
+            <div class="col">
+              <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-graduation-cap fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modaledu">
+                    </i>
+                    <div class="modal fade" id="Modaledu" tabindex="-1" aria-labelledby="Modaledu" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Educacion</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul>
+            </div>
+            </div>
+
+            <!--habilidades-->
+            <div class="col">
+              <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-laptop fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalhabilidades">
+                    </i>
+                    <div class="modal fade" id="Modalhabilidades" tabindex="-1" aria-labelledby="Modalhabilidades" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Hard & Soft Skills</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--sobre mi-->
+        <div class="row mt-3 g-2 g-lg-3">
+            <div class="col">
+              <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-pen fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalmi">
+                    </i>
+                    <div class="modal fade" id="Modalmi" tabindex="-1" aria-labelledby="Modalmi" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Sobre mi</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul></div>
+            </div>
+
+            <!--Proyectos-->
+            <div class="col">
+              <div ><ul class="list-group list-group-horizontal">
+                <!-- Button trigger modal -->
+                <li class="list-group-item">
+                    <i class="fa-solid fa-folder fa-2xl btn-lg p-5"type="button"data-bs-toggle="modal" data-bs-target="#Modalproyec">
+                    </i>
+                    <div class="modal fade" id="Modalproyec" tabindex="-1" aria-labelledby="Modalproyec" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="row modal-header">
+                            <div class="mb-3">
+                              <label for="formFileMultiple" class="form-label">Proyectos</label>
+                              <input class="form-control" type="text" id="formFileMultiple" multiple>
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>    
+                    </div>
+                </li>
+              </ul></div>
+            </div>
+      </div>
+</section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
+</body>
+</html>
