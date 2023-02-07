@@ -1,4 +1,4 @@
-
+/*banner*/
 section.banner{
     background-image: url(../img/nocturno.png);
     height:100vh;
@@ -11,6 +11,7 @@ section.banner{
     position: relative;
 }
 
+/*barra de navegacion*/
 .navbar.navbar-expand-lg.bg-secondary{
     background-color:rgb(0, 0, 0) !important;
 }
@@ -22,6 +23,10 @@ i.fa-brands.fa-github.fa-xl,
 i.fa-sharp.fa-solid.fa-user-check.fa-xl,
 i.fa-solid.fa-user-tie.fa-xl{
     color: rgb(248, 246, 246);
+}
+i.fa-solid.fa-x,
+i.fa-solid.fa-pencil{
+    color:rgb(54, 56, 55)
 }
 i.fa-brands.fa-instagram.fa-xl:hover{
 color:rgba(231, 67, 168, 0.692)
@@ -44,6 +49,8 @@ i.fa-solid.fa-user-tie.fa-xl:hover{
 .list-group{
 --bs-list-group-bg: transparet;
 }
+
+
 section.about{
     margin-top: 5rem;
 }
