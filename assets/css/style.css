@@ -44,10 +44,10 @@ i.fa-solid.fa-user-tie.fa-xl:hover{
 }
 
 
-section.about{
+/*section.about{
     margin-top: 5rem;
 }
-/*section.dat{
+section.dat{
     margin-top: 25rem;
 }*/
 /*section.sobre-mi.about{
@@ -68,6 +68,9 @@ section.dashboard1,section.panel{
 #experiencia{
     background-color: rgb(176, 250, 255);
     padding: 20px;
+}
+.about{
+    background-color: rgb(176, 250, 255);
 }
 
 h1,h3{
@@ -114,9 +117,11 @@ h1,h3{
 .progreso:hover{
     animation:Aumentar 5s ease;
 }
+
 #proyectos{
     background-color: rgb(176, 250, 255);
 }
+
 footer{
     background-color: rgb(176, 250, 255);
     margin-right: auto;
